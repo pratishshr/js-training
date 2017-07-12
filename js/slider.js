@@ -33,5 +33,5 @@ function Slider(elementId) {
 
 var slider = new Slider('slider');
 
-slider.init(asdf());
+slider.init();
 
