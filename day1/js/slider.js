@@ -27,6 +27,8 @@ function Slider(elementId) {
   }
 
   this.stop = function () {
+    console.log('here')
+
     clearInterval(that.intervalId);
   }
 }
@@ -34,4 +36,3 @@ function Slider(elementId) {
 var slider = new Slider('slider');
 
 slider.init();
-
