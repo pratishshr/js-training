@@ -23,6 +23,8 @@ function Slider(elementId) {
     this.intervalId = setInterval(function () {
       element.style.marginLeft = that.marginLeft;
       that.marginLeft -= 10;
+
+      that.marginLeft
     }, 1000 / 60);
   }
 
